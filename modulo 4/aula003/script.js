@@ -9,7 +9,7 @@ class Person {
     }
 
     darPassos() {
-        this.passos++
+        this._passos++
     }
 
     get passo() {
@@ -38,5 +38,8 @@ botaopassos.addEventListener('click', () => {
     pessoa1.darPassos()
 
     console.log(`${pessoa1.nomeCompleto} agora tem ${pessoa1.ano} anos, e deu ${pessoa1.passo} passos.`)
-}) 
+
+})
+
+console.log(`${pessoa1.nomeCompleto} agora tem ${pessoa1.ano} anos, e deu ${pessoa1.passo} passos.`)
 
